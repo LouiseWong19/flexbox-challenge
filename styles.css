@@ -47,27 +47,22 @@ h1{
 /*Big flexbox*/
 main{
     display: flex; 
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-evenly;
-    height: 800px; /*use min-height for responsive*/
-    background-color: white;
-    border: 1px solid black;
     width: 100%;
     gap: 20px;
     padding: 30px;
+    
 }
 
 /* Left panel*/
 #ver-panel {
   display: flex;
   flex-direction: column;
-  width: 200%;
-  padding: 50px;
+  width: 100%;
   gap: 20px;
   align-content: stretch;
   justify-content: center;
   margin-right: 30px;
+
 }
 
 div{
@@ -96,11 +91,17 @@ h2{
   margin-bottom: 20px;
 }
 
-/*flexbox for bullet points*/
+/*flexbox for bullet point*/
 span{
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+}
+
+.hor-panel{
+  display: flex;
+  width: 50%;
+  padding: 20px
 }
 
 /*Right panel*/
